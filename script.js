@@ -19,22 +19,28 @@ btn.addEventListener("click",(e)=>{
     return;
    }
 
-   let p= document.createElement("p");
+   
+   let p= document.createElement("li");
     p.innerHTML=taskdata;
     p.classList.add("pending");
+   
     box.prepend(p)  ;  
    input.value="";
 
 
-   let i=document.createElement("i");
-   i.setAttribute("class","fa-solid fa-trash");
-   p.appendChild(i);
-
-   i.style.marginLeft="100px";
+   let del=document.createElement("i");
+   del.setAttribute("class","fa-solid fa-trash");
+   p.appendChild(del);
+    del.style.position="absolute";
+    del.style.right="70px";
+   del.style.marginLeft="100px";
    let doneicon=document.createElement("i");
    doneicon.setAttribute("class","fa-solid fa-circle-check");
    p.appendChild(doneicon);
    doneicon.style.color="red";
+   doneicon.style.position="absolute";
+   doneicon.style.right="30px";
+   doneicon.style.marginLeft="20px"
   });
 
   let count=0;

@@ -45,12 +45,12 @@ h1::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   padding: 20px;
   gap: 30px;
   border-radius: 10px;
 }
 .main .box {
+  position: relative;
   width: 90%;
   height: 90%;
   background-color: rgb(49, 71, 58);
@@ -95,4 +95,10 @@ h1::before {
   color: white;
   font-size: 15px;
   font-weight: 600;
+}
+
+.tasklist {
+  background-color: red;
+  color: white;
+  height: 10px;
 }/*# sourceMappingURL=style.css.map */

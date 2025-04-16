@@ -47,13 +47,14 @@ top:50%;
     flex-direction: column;
     justify-content: center;
    align-items: center;
-  text-align: center;
+
   padding:20px;
   gap:30px;
   border-radius: 10px;
 
    
     .box{
+        position: relative;
         width:90%;
         height: 90%;
         background-color: rgb(49, 71, 58);
@@ -62,6 +63,7 @@ top:50%;
         border-radius: 10px;
         overflow: scroll;
         padding:20px;
+        
     }
     form{
        width:80%;
@@ -110,3 +112,9 @@ select{
    
 }
 
+.tasklist{
+    background-color: red;
+    color:white;
+    height:10px;
+    
+}
