@@ -96,6 +96,9 @@ h1::before {
   font-size: 15px;
   font-weight: 600;
 }
+.main form select:focus {
+  outline: #31473A;
+}
 
 .tasklist {
   background-color: red;

@@ -13,7 +13,7 @@ input.addEventListener("input",(e)=>{
 
 btn.addEventListener("click",(e)=>{
     e.preventDefault();
-   if(taskdata=="")
+   if(input.value.trim()==="")
    {
     alert("Please write the Task ");
     return;
@@ -62,7 +62,7 @@ console.log(count);
 
    filter.addEventListener("change",(e)=>{
 
-    let alltask=document.querySelectorAll("p");
+    let alltask=document.querySelectorAll("li");
 
     alltask.forEach((task)=>{
       if(e.target.value=="All")
