@@ -41,7 +41,7 @@ top:50%;
 .main{
     border:1px solid white;
     background-color: #EDF4F2;
-    width:60%;
+    width:90%;
     height:80%;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ top:50%;
    
     .box{
         position: relative;
-        width:90%;
+        width:98%;
         height: 90%;
         background-color: rgb(49, 71, 58);
         color:white;
@@ -67,8 +67,8 @@ top:50%;
     }
     form{
        width:80%;
-      
-     
+      row-gap:30px;
+       flex-wrap: wrap;
         display: flex;
     justify-content: center;
 input{
@@ -76,6 +76,7 @@ input{
     background-color: #EDF4F2;
     border:2px solid #31473A;
     height:50px;
+
 &:focus{
 background-color: rgba(49, 71, 58,0.8);
 
@@ -86,7 +87,7 @@ padding-left:20px;
 }
 }
 #btn{
-    width:50px;
+    width:100px;
     height:50px;
     background-color: #31473A;
     border:none;

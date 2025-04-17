@@ -20,11 +20,13 @@ btn.addEventListener("click",(e)=>{
    }
 
    
+
    let p= document.createElement("li");
     p.innerHTML=taskdata;
     p.classList.add("pending");
    
-    box.prepend(p)  ;  
+    box.prepend(p) ; 
+    
    input.value="";
 
 
